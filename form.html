@@ -9,10 +9,10 @@
 <body>
     <form action="register.php" method="get">
         <label for="name">Name</label>
-        <input type="text" id="name" size="50" maxlength="50">
+        <input type="text" id="name" name="name" size="50" maxlength="50">
         <br>
         <label for="surname">Surname</label>
-        <input type="text" id="surname" size="50" maxlength="50" required>
+        <input type="text" id="surname" name="surname" size="50" maxlength="50" required>
         <br>
         <fieldset>
             <legend>Gender</legend>
@@ -24,13 +24,13 @@
             <label for="nosay">I prefer not to say</label>
         </fieldset>
         <br>
-        <input type="text" id="email" size="50" maxlength="50">
+        <input type="text" id="email" name="email" size="50" maxlength="50">
         <label for="email">Email</label>
         <br>
-        <input type="checkbox" id="spam" checked>
+        <input type="checkbox" id="spam" name="spam" checked>
         <label for="spam">I want to receive information about news and offers</label>
         <br>
-        <input type="checkbox" id="legal">
+        <input type="checkbox" id="legal" name="legal" >
         <label for="legal">I declare that I have read and accept the general conditions of the program and the regulations on data protection</label>
         <br><br>
         <input type="submit">
